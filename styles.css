@@ -89,7 +89,8 @@ nav{ display:flex; align-items:center; justify-content:space-between; padding:20
 @media(max-width:780px){
   .navlinks{ display:none; }
   nav{ padding:16px 20px; }
-  .navcta{ display:none; }
+  nav > .navcta{ display:none; }
+  nav > .navresume{ display:none; }
   .hamburger{ display:block; }
 }
 
