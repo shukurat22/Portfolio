@@ -148,7 +148,7 @@ h2.sec-title{ font-size:clamp(1.6rem,3vw,2.15rem); margin-bottom:14px; }
 
 .about-grid{ display:grid; grid-template-columns:.82fr 1.18fr; gap:60px; align-items:start; }
 @media(max-width:860px){ .about-grid{ grid-template-columns:1fr; gap:36px; } }
-.about-photo{ border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--line); position:sticky; top:100px; }
+.about-photo{ border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--line); }
 .about-copy p{ font-size:17px; color:var(--ink-soft); margin-bottom:20px; max-width:62ch; font-weight:500; }
 .about-copy p strong{ color:var(--ink); font-weight:800; }
 .about-list{ margin-top:26px; padding-top:22px; border-top:1px solid var(--line); }
