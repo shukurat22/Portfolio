@@ -132,8 +132,8 @@ h1.hero-h .name{ display:block; font-size:clamp(1.9rem,7.2vw,4.1rem); font-weigh
 .teaser .t-link{ font-size:13.5px; font-weight:700; color:var(--accent); display:flex; align-items:center; gap:6px; }
 
 .tools-row{ display:flex; align-items:center; gap:20px; flex-wrap:wrap; justify-content:center; padding:28px; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); }
-.tools-label{ font-size:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--muted-light); }
-.tools-chips{ display:flex; gap:10px; flex-wrap:wrap; }
+.tools-label{ font-size:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--muted-light); white-space:nowrap; }
+.tools-chips{ display:flex; gap:10px; flex-wrap:wrap; justify-content:center; max-width:560px; }
 .tool-chip{ font-size:14px; font-weight:700; padding:9px 16px; border-radius:8px; background:var(--paper-dim); border:1px solid var(--line); color:var(--ink-soft); }
 @media(max-width:640px){ .tools-row{ flex-direction:column; text-align:center; } }
 
